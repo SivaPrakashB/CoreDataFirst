@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DFA6BE20FDC55B00FD9F68 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA6BD20FDC55B00FD9F68 /* thirdViewController.swift */; };
+		18DFA6C020FDC56600FD9F68 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA6BF20FDC56600FD9F68 /* FourthViewController.swift */; };
 		18FFB30E20E502F400DAA248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFB30D20E502F400DAA248 /* AppDelegate.swift */; };
 		18FFB31020E502F400DAA248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFB30F20E502F400DAA248 /* ViewController.swift */; };
 		18FFB31320E502F400DAA248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FFB31120E502F400DAA248 /* Main.storyboard */; };
 		18FFB31620E502F400DAA248 /* CoreDataFirst.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18FFB31420E502F400DAA248 /* CoreDataFirst.xcdatamodeld */; };
 		18FFB31820E502F600DAA248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FFB31720E502F600DAA248 /* Assets.xcassets */; };
 		18FFB31B20E502F600DAA248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FFB31920E502F600DAA248 /* LaunchScreen.storyboard */; };
+		18FFB32320E504F100DAA248 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFB32220E504F100DAA248 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18DFA6BD20FDC55B00FD9F68 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		18DFA6BF20FDC56600FD9F68 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		18FFB30A20E502F400DAA248 /* CoreDataFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FFB30D20E502F400DAA248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FFB30F20E502F400DAA248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		18FFB31720E502F600DAA248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FFB31A20E502F600DAA248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FFB31C20E502F600DAA248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FFB32220E504F100DAA248 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				18FFB31920E502F600DAA248 /* LaunchScreen.storyboard */,
 				18FFB31C20E502F600DAA248 /* Info.plist */,
 				18FFB31420E502F400DAA248 /* CoreDataFirst.xcdatamodeld */,
+				18FFB32220E504F100DAA248 /* SecondViewController.swift */,
+				18DFA6BD20FDC55B00FD9F68 /* thirdViewController.swift */,
+				18DFA6BF20FDC56600FD9F68 /* FourthViewController.swift */,
 			);
 			path = CoreDataFirst;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DFA6C020FDC56600FD9F68 /* FourthViewController.swift in Sources */,
+				18FFB32320E504F100DAA248 /* SecondViewController.swift in Sources */,
 				18FFB31020E502F400DAA248 /* ViewController.swift in Sources */,
+				18DFA6BE20FDC55B00FD9F68 /* thirdViewController.swift in Sources */,
 				18FFB30E20E502F400DAA248 /* AppDelegate.swift in Sources */,
 				18FFB31620E502F400DAA248 /* CoreDataFirst.xcdatamodeld in Sources */,
 			);
@@ -287,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = CoreDataFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = CoreDataFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
